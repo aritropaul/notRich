@@ -1,0 +1,6 @@
+framework module Pods_NotRich {
+  umbrella header "Pods-NotRich-umbrella.h"
+
+  export *
+  module * { export * }
+}

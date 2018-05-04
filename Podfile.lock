@@ -1,0 +1,15 @@
+PODS:
+  - EFCountingLabel (4.0.1)
+  - SwiftChart (0.5.0)
+
+DEPENDENCIES:
+  - EFCountingLabel
+  - SwiftChart
+
+SPEC CHECKSUMS:
+  EFCountingLabel: 1beb6707761ad00b97efc8bde5c3fceaa7cb9eec
+  SwiftChart: d1d22d2b1c4582f4d561edf97a210059c00ee256
+
+PODFILE CHECKSUM: 7e8fb23aee00fb98ebd168206139cc0a78af24da
+
+COCOAPODS: 1.4.0
