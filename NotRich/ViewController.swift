@@ -59,8 +59,8 @@ class ViewController: UIViewController, ChartDelegate{
     @IBOutlet weak var CurrentPrice: EFCountingLabel!
     
     func setup(){
-        currencyButton.layer.cornerRadius = 10
-        PriceHistory.layer.cornerRadius = 10
+        currencyButton.layer.cornerRadius = 8
+        PriceHistory.layer.cornerRadius = 8
         cardView.layer.cornerRadius = 5
         cardView.layer.shadowOffset = CGSize(width: 0, height: 3)
         cardView.layer.shadowOpacity = 0.2

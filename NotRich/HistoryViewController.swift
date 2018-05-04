@@ -60,16 +60,17 @@ class HistoryViewController: UIViewController, UITableViewDelegate, UITableViewD
                 series.area = true
                 self.chartView.removeAllSeries()
                 self.chartView.add(series)
+                self.tableView.reloadData()
              })
             }.resume()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup()
-        getHistory()
         tableView.delegate = self
         tableView.dataSource = self
+        setup()
+        getHistory()
         // Do any additional setup after loading the view.
     }
 
