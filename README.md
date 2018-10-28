@@ -1,2 +1,3 @@
 # notRich
-A BitCoin Price Tracker built using CoinDesk's API
+A simple BitCoin Price Tracker built using CoinDesk's API.
+
